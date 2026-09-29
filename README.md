@@ -1,7 +1,7 @@
 <h1 align="center">Lana Ribeiro</h1>
 
 <p align="center">
-  <strong>Desenvolvedora Full-Stack</strong> · TypeScript · React · Node.js · Java<br/>
+  <strong>Desenvolvedora Full-Stack</strong> · TypeScript · Angular · Node.js · Java<br/>
   Construo produtos web com IA aplicada — do problema do usuário ao software em uso.
 </p>
 
