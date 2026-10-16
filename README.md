@@ -1,8 +1,8 @@
 <h1 align="center">Lana Ribeiro</h1>
 
 <p align="center">
-  <strong>Desenvolvedora Full-Stack</strong> · TypeScript · React · Node.js · Java<br/>
-  Construo produtos web com IA aplicada — do problema do usuário ao software em uso.
+  <strong>Desenvolvedora Full-Stack</strong> · Java · TypeScript · React · Angular<br/>
+  Construo sistemas web de ponta a ponta, com IA aplicada onde ela resolve um problema real.
 </p>
 
 <p align="center">
@@ -14,34 +14,50 @@
 
 ### Sobre
 
-Desenvolvedora full-stack da área de Análise e Desenvolvimento de Sistemas. Meu foco é transformar processos manuais e complexos em ferramentas simples de usar, combinando engenharia de software sólida, interfaces cuidadosas e inteligência artificial aplicada a problemas reais.
+Estudante de Análise e Desenvolvimento de Sistemas e desenvolvedora full-stack. Gosto de transformar processos manuais e complexos em ferramentas simples de usar: entendo o problema do usuário antes de escolher a tecnologia e construo com engenharia sólida por baixo, interfaces cuidadosas por cima e IA usada de forma assistiva e rastreável.
 
 ### Projetos em destaque
 
-**[Excelência · Orçamentos](https://github.com/Lana-Ribeiro/excelencia-orcamentos)**  
-Plataforma de orçamentos para obras de arquitetura que usa as planilhas Excel da empresa como base de dados, preservando fórmulas e macros. Inclui assistente de IA que lê cotações de fornecedores, câmbio automático, dashboards para o cliente e uma versão online com capa 3D em tempo real.  
-`TypeScript` `React` `Node.js` `Claude API` `Three.js`
+#### [Demand Hub](https://github.com/Lana-Ribeiro/demand-hub) — gestão do ciclo de vida de demandas
 
-**[SmartDesk](https://github.com/Lana-Ribeiro/smartdesk-ai-team)**  
-Sistema de gerenciamento de chamados, com abertura, acompanhamento, detalhes e fluxo de status.  
-`React` `Node.js` `SQLite`
+Plataforma que conduz uma demanda da abertura à conclusão: abertura guiada com assistente de IA, triagem, *approval gates* configuráveis, integração com Jira para o ciclo da demanda e com GitLab/GitHub para a execução técnica, além de documentação e dashboard gerencial.
 
-**[AI Development Squad](https://github.com/Lana-Ribeiro/ai-development-squad)**  
-Ambiente para montar uma equipe de desenvolvimento formada por agentes e subagentes de IA.  
-`Agentes de IA`
+- Princípio de projeto: **processo determinístico, IA assistiva, decisões rastreáveis**.
+- Provedor de IA configurável (Anthropic, OpenAI, Azure OpenAI ou modo simulado) e integrações com modo `mock`, para rodar sem credenciais.
+- Autenticação JWT com perfis de acesso (RBAC), webhooks assinados (HMAC) e testes E2E de API cobrindo o fluxo completo.
 
-**[MapsGrafo](https://github.com/Lana-Ribeiro/MapsGrafo)**  
-Geolocalização com grafos: cadastro de locais e rotas, distância entre pontos e caminho mais rápido com o algoritmo de Dijkstra.  
-`Java` `Algoritmos`
+`Java 21` `Spring Boot 3` `Spring Security` `Angular 17` `PostgreSQL` `Docker`
+
+#### [SmartDesk AI Team](https://github.com/Lana-Ribeiro/smartdesk-ai-team) — help desk construído por agentes de IA
+
+Sistema de chamados em que cada funcionalidade nasce de uma GitHub Issue e passa por um pipeline de seis agentes de IA — orquestração, análise, arquitetura, desenvolvimento, QA e gestão do GitHub — até virar Pull Request, com o resultado de cada etapa registrado na Issue e no Project.
+
+- Aplicação com central de atendimento orientada à ação, dashboard, Kanban, notificações e equipes/responsáveis com validação de combinações.
+- Decisões de engenharia documentadas: sem backend por escolha, regras de negócio isoladas da interface e busca por linguagem natural pronta para trocar a heurística local por um provedor de IA.
+
+`React 18` `TypeScript` `Vite` `Claude Code`
+
+#### [Excelência · Orçamentos](https://github.com/Lana-Ribeiro/excelencia-orcamentos) — orçamentos de obras de arquitetura
+
+Plataforma que usa as planilhas Excel da empresa como base de dados, alterando apenas o XML das células de entrada para preservar fórmulas e macros VBA. Um assistente de IA lê cotações de fornecedores (texto, PDF, imagem ou planilha) e propõe lançamentos que o usuário aprova ou descarta. Inclui câmbio automático, apresentação ao cliente e uma versão online com capa 3D em tempo real.
+
+`TypeScript` `React` `Node.js` `Express` `Claude API` `Three.js`
+
+#### Mais projetos
+
+- [MapsGrafo](https://github.com/Lana-Ribeiro/MapsGrafo) — geolocalização com grafos em Java: cadastro de locais e rotas, distância entre pontos e caminho mais rápido com Dijkstra.
+- [Sistema-Login](https://github.com/Lana-Ribeiro/Sistema-Login) — autenticação em React com Hooks e Context API.
 
 ### Stack
 
 | | |
 |---|---|
-| **Linguagens** | TypeScript · JavaScript · Java · C# · Kotlin · Python · SQL |
-| **Front-end** | React · Vite · HTML · CSS · Three.js |
-| **Back-end** | Node.js · Express · Spring Boot · MySQL · SQLite |
-| **IA** | Claude API · uso de ferramentas (tool use) · agentes e subagentes |
+| **Linguagens** | Java · TypeScript · JavaScript · Python · C# · Kotlin · SQL |
+| **Back-end** | Spring Boot · Spring Security (JWT) · JPA · Flyway · Node.js · Express · PostgreSQL · MySQL |
+| **Front-end** | React · Angular · Vite · HTML · CSS · Three.js |
+| **IA** | Claude API (tool use e streaming) · agentes e subagentes · Claude Code |
+| **Ferramentas** | Git · GitHub (Issues, Projects, Pull Requests) · Docker · Maven |
+| **Qualidade** | JUnit · testes E2E de API |
 
 ### Como eu trabalho
 
