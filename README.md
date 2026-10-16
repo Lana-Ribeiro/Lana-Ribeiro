@@ -18,6 +18,10 @@ Desenvolvedora full-stack da área de Análise e Desenvolvimento de Sistemas. Me
 
 ### Projetos em destaque
 
+**[Demand Hub](https://github.com/Lana-Ribeiro/demand-hub)**  
+Plataforma de gestão do ciclo de vida de demandas, da ideia à entrega. Abertura guiada com assistente de IA que lê documentos e apresentações, triagem com resumo, prioridade sugerida e detecção de duplicidades, aprovações configuráveis e integração real com Jira e GitHub. A IA sugere, uma pessoa decide, e cada decisão fica registrada.  
+`Java` `Spring Boot` `Angular` `PostgreSQL` `Claude API` `Jira` `GitHub`
+
 **[Excelência · Orçamentos](https://github.com/Lana-Ribeiro/excelencia-orcamentos)**  
 Plataforma de orçamentos para obras de arquitetura que usa as planilhas Excel da empresa como base de dados, preservando fórmulas e macros. Inclui assistente de IA que lê cotações de fornecedores, câmbio automático, dashboards para o cliente e uma versão online com capa 3D em tempo real.  
 `TypeScript` `React` `Node.js` `Claude API` `Three.js`
@@ -30,17 +34,13 @@ Sistema de gerenciamento de chamados, com abertura, acompanhamento, detalhes e f
 Ambiente para montar uma equipe de desenvolvimento formada por agentes e subagentes de IA.  
 `Agentes de IA`
 
-**[MapsGrafo](https://github.com/Lana-Ribeiro/MapsGrafo)**  
-Geolocalização com grafos: cadastro de locais e rotas, distância entre pontos e caminho mais rápido com o algoritmo de Dijkstra.  
-`Java` `Algoritmos`
-
 ### Stack
 
 | | |
 |---|---|
 | **Linguagens** | TypeScript · JavaScript · Java · C# · Kotlin · Python · SQL |
-| **Front-end** | React · Vite · HTML · CSS · Three.js |
-| **Back-end** | Node.js · Express · Spring Boot · MySQL · SQLite |
+| **Front-end** | React · Angular · Vite · HTML · CSS · Three.js |
+| **Back-end** | Node.js · Express · Spring Boot · PostgreSQL · MySQL · SQLite |
 | **IA** | Claude API · uso de ferramentas (tool use) · agentes e subagentes |
 
 ### Como eu trabalho
